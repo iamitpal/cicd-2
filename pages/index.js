@@ -10,7 +10,7 @@ export default function Home() {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <h1>C:{count}</h1>
+      <h1>C2:{count}</h1>
       <button onClick={() => setCount(count + 1)}>INC</button>
       <button onClick={() => setCount(count - 1)}>DEC</button>
     </div>
