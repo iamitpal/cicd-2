@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [count, setCount] = useState(0);
+
   return (
     <div>
       <h1>C2:{count}</h1>
